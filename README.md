@@ -1,10 +1,10 @@
-# ✨ Full Stack Realtime Chat App ✨
+# ✨ Realtime Chat Application ✨
 
 ![Demo App](/frontend/public/screenshot-for-readme.png)
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+A full-stack realtime chat application built by **Dattuog**.
 
-Highlights:
+## 🌟 Features:
 
 - 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
 - 🎃 Authentication && Authorization with JWT
