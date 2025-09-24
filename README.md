@@ -1,42 +1,33 @@
-# ✨ Realtime Chat Application ✨
+# Realtime Chat Application
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A full-stack realtime chat application.
 
-A full-stack realtime chat application built by **Dattuog**.
+## Features
 
-## 🌟 Features:
+- MERN Stack with Socket.io
+- JWT Authentication
+- Real-time messaging
+- Online user status
+- Global state management with Zustand
+- Error handling
 
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
+## Setup
 
-### Setup .env file
+Create .env file in backend folder:
 
-```js
-MONGODB_URI=...
+```
+MONGODB_URI=your_mongodb_uri
 PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
+JWT_SECRET=your_jwt_secret
+CLOUDINARY_CLOUD_NAME=your_cloudinary_name
+CLOUDINARY_API_KEY=your_cloudinary_key
+CLOUDINARY_API_SECRET=your_cloudinary_secret
 NODE_ENV=development
 ```
 
-### Build the app
+## Installation
 
-```shell
-npm run build
 ```
-
-### Start the app
-
-```shell
+npm run build
 npm start
 ```
